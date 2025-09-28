@@ -8,7 +8,7 @@ filename = "EEG and ECG data_02_raw.csv"
 #Ignoring the #s
 df = pd.read_csv(filename, comment='#')
 
-#Check to see the 
+#Check to see if it prints
 
 print(df.columns.tolist())
 print(df.head())
@@ -98,5 +98,6 @@ if cm_present:
 )
 
 #To show on browser
+
 
 fig.show()
